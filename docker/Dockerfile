@@ -11,6 +11,10 @@
 ####
 FROM python:slim
 
+RUN id
+RUN mkdir /maysun
+RUN ls -la /maysun
+
 WORKDIR /projects
 
 RUN python3 -m venv venv
